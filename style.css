@@ -1,0 +1,118 @@
+
+
+* {margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;}
+
+body {background-color: #101D2B;
+    color: white;
+    line-height: 1.6em;}
+
+header {width: 1000px;
+    margin: 10px auto;
+    padding: 10px;}
+
+header h1 {font-size: 22px;
+    color: white;}
+
+nav {width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;}
+
+nav a {background-color: #263A4D;
+    color: white;
+    padding: 12px 35px;
+    margin: 2px;}
+
+nav a:hover {background-color: #596747;}
+
+nav a.active {background-color: #596747;}
+
+main {width: 1000px;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #596747;}
+
+section {margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #405467;}
+
+h1 {text-align: center;
+    font-size: 28px;}
+
+h2 {text-align: center;
+    font-size: 22px;}
+
+h3 {font-size: 18px;
+    color: #B9CCA3;}
+
+p {margin: 10px 0;}
+
+hr {margin: 15px 0;
+    border: 1px solid #405467;}
+
+img {width: 150px;
+    height: 190px;
+    border: 1px solid #B9C8D5;}
+
+.cover {text-align: center;
+    padding: 30px;}
+
+.cover img {width: 140px;
+    height: 180px;}
+
+.cover h1 {margin: 15px 0;}
+
+.project-card {background-color: #263A4D;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #596747;}
+
+.project-card img {width: 600px;
+    height: auto;}
+
+.status {background-color: #596747;
+    padding: 5px 10px;}
+
+.in-progress {background-color: #78664D;}
+
+.gallery-table {width: 100%;}
+
+.gallery-table td {width: 50%;
+    padding: 5px;
+    text-align: center;}
+
+.gallery-table img {width: 450px;
+    height: 250px;
+    background-color: #263A4D;}
+
+.roadmap {padding: 20px;
+    border: 1px solid #596747;}
+
+.roadmap span {margin: 15px;}
+
+.document-end {margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #596747;}
+
+.document-end a {color: white;
+    margin: 10px;}
+
+footer 
+{
+    width: 1000px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #263A4D;
+    text-align: center;
+}
+
+/*색 선별과 사진 배치, px 선택에 있어 ai의 도움을 받았습니다.*/
+
+/* 두 번째 프로젝트 군 사진 */
+.military-project-photo {
+    width: 600px;
+    height: 250px;
+    object-fit: cover; /* AI의 도움을 받아 구현했습니다. */
+}
